@@ -31,7 +31,7 @@
 ```
 =======================
 ##**EXPERIENCE**
-
+###Only small tasks for personal purpose and during online courses.
 =======================
 ##**EDUCATION**
     *###Power Engineer                     2008
