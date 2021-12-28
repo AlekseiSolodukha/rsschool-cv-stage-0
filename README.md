@@ -1,1 +1,1 @@
-https://alekseisolodukha.github.io/rsschool-cv/index.html
+https://alekseisolodukha.github.io/rsschool-cv/
