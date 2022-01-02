@@ -13,6 +13,10 @@ body {
     background-color: #f7f7f7;
 	font-family: 'Lato', sans-serif;
     min-height: 100vh;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3b3a39;
 }
 .header {
     border: 1px solid red;
@@ -42,20 +46,65 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
+    text-decoration: none;
     transition: .3s;   
     cursor: pointer; 
     font-size: 100%;
+    color: #f4f8f8;
 }
 .nav-link:hover {
     font-size: 120%;
+    color: #809292;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 .section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+.section-profile {
+    display: flex;
+    background-image: url(..//assets/svg/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+    object-fit: cover;
+}
 
+.section-profile-content {
+    
 }
-.section-header-profile {
+.section-profile-title {
     text-transform: uppercase;
+    font-size: 50px;
+    color: #f4f8f8;
+    
+    
 }
-.section-header {
+.section-profile-photo{
+    display: block;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.section-profile-subtitle {
+    font-size: 20px;
+    color: #a3a39f;
+}
+.section-title {
     text-transform: uppercase;
     letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #352f11;
 }
