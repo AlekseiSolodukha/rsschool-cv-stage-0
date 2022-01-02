@@ -3,7 +3,7 @@
 ---
 
 ### **CONTACTS**
-#### **Phone:** +375 33 6577171
+#### **Phone:** +375 33 657XXXX
 #### **E-mail:** alekseisoloduha@gmail.com
 #### **LinkedIn:** [https://www.linkedin.com/in/aleksei-solodukha](https://www.linkedin.com/in/aleksei-solodukha/ "Link to my LinkedIn profile")
 #### **Discord(RS-School Discord Server):** Aleksei(@AlekseiSolodukha)
