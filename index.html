@@ -1,77 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./assets/svg/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/svg/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container header-container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
-                    <li class="nav-item"><a href="#about-me" class="nav-link">ABOUT ME</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
-                    <li class="nav-item"><a href="#code-example" class="nav-link">CODE EXAMPLE</a></li>
-                    <li class="nav-item"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">LANGUAGES</a></li>
-                </ul>
-            </nav>
-        </div>    
-    </header>
-
-    <main class="main">
-        <div class="container main-container">
-            <section class="section-profile" id="profile">
-                <img src="./assets/img/photo.png" alt="my photo" class="section-profile-photo">
-                <div class="section-profile-content">
-                    <h1 class="section-profile-title">aleksei solodukha</h1>
-                    <h3 class="section-profile-subtitle">RS School student</h3>
-                </div>
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">contacts</h2>
-                <p></p>
-            </section>
-            <section class="section" id="about-me">
-                <h2 class="section-title">about me</h2>
-                <p></p>
-            </section>
-            <section class="section" id="skills">
-                <h2 class="section-title">skills</h2>
-                <p></p>
-            </section>
-            <section class="section" id="code-example">
-                <h2 class="section-title">code example</h2>
-                <p></p>
-            </section>
-            <section class="section" id="experience">
-                <h2 class="section-title">experience</h2>
-                <p></p>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">education</h2>
-                <p></p>
-            </section>
-            <section class="section" id="languages">
-                <h2 class="section-title">languages</h2>
-                <p></p>
-            </section>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            
-        </div>
-    </footer>
+	<main-header class="main-header">
+  	<header-nav class="header-nav">
+    	 	<nav class="nav">
+       	 	<ul class="nav-list">
+         		<li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+          	<li class="nav-item"><a href="#about-me" class="nav-link">about me</a></li>
+          	<li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          	<li class="nav-item"><a href="#code-example" class="nav-link">code example</a></li>
+          	<li class="nav-item"><a href="#experience" class="nav-link">experience</a></li>
+          	<li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+          	<li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+        	</ul>
+      	</nav>
+		</header-nav>    	
+  	<header-profile class="header-profile">
+    	 	<img src="./assets/img/photo.png" alt="my photo" class="header-profile-photo">
+      	<div class="header-profile-content">
+        	<h1 class="header-profile-title">aleksei solodukha</h1>
+        	<h3 class="header-profile-subtitle">RS School student</h3>
+      	</div>    	
+  	</header-profile>  	
+	</main-header>
+  <main class="main">
+    <div class="container main-container">  
+      <section class="section" id="contacts">
+        <h2 class="section-title">contacts</h2>
+        <ul class="section-list">
+          <li class="section-item">Phone:<span class="section-contacts-span">+375 33 657XXXX</span></li>
+          <li class="section-item">E-mail:<a href="mailto:alekseisoloduha@gmail.com" class="section-contacts-links" title="email">alekseisoloduha@gmail.com</a></li>
+          <li class="section-item">LinkedIn:<a href="https://www.linkedin.com/in/aleksei-solodukha" class="section-contacts-links" title="linkedin">aleksei-solodukha</a></li>
+          <li class="section-item">Discord(RS-School Discord Server):<a href="https://discord.gg/uvMkj6tR" class="section-contacts-links">Aleksei(@AlekseiSolodukha)</a>"</li>
+        </ul>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="section-title">about me</h2>
+        <p>Hardworking, goal-orientated, curious - all of this is about me.<br>My credo - there is nothing impossible to understand.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">skills</h2>
+        <ul class="section-list">
+          <li class="section-item">HTML Basics</li>
+          <li class="section-item">CSS Basics</li>
+          <li class="section-item">JavaScript Basics</li>
+          <li class="section-item">Git, GitHub</li>
+        </ul>
+      </section>
+      <section class="section" id="code-example">
+        <h2 class="section-title">code example</h2>
+        <pre class="section-code"><code>function ArrayMax(array){
+  let max = array[0];
+  for(let i = 1; i <= (array.length - 1); i++){
+      if(max < array[i]){
+          let max = array[i];
+      } else
+      continue;
+  }
+    return max;
+}</code></pre>
+      </section>
+			<section class="section" id="education">
+        <h2 class="section-title">education</h2>
+        <ul class="section-list">
+          <li class="section-item">Power Engineer<span class="section-education-span">(Belarusian National Technical University, Minsk, Belarus, 2008)</span></li>
+          <li class="section-item">Translator <span class="section-education-span">(State Educational Institution "Academy of Postgraduate Education", Minsk, Belarus, 2008)</span></li>
+          <li class="section-item">Git.Basics <span class="section-education-span">(<a href="https://www.gb.ru" title="GekBrains">gekbrains.ru</a>, 2021)</span></li>
+          <li class="section-item">HTML Basics <span class="section-education-span">(<a href="https://ru.code-basics.com/languages/html" title="ru.code-basics.com">https://ru.code-basics.com/languages/html</a>, 2021)</span></li>
+          <li class="section-item">CSS Basics <span class="section-education-span">(<a href="https://ru.code-basics.com/languages/css">https://ru.code-basics.com/languages/css</a>, 2021)</span></li>
+        </ul>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">experience</h2>
+        <p>Only small tasks for personal purpose and during online courses.</p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">languages</h2>
+        <ul class="section-list">
+          <li class="section-item">English(B2 or higher)</li>
+          <li class="section-item">Russian(native speaker)</li>
+          <li class="section-item">Belarusian(native speaker)</li>
+          <li class="section-item">Polish(can read and understand)</li>
+          </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="section-footer">
+      © 2022 <a href="https://github.com/AlekseiSolodukha" class="footer-url">AlekseiSolodukha</a>
+	  </div>
+		<a href="https://rs.school/" class="rss-logo"></a>
+  </footer>
 </body>
 </html>
