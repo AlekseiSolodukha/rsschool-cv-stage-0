@@ -49,7 +49,6 @@ span {
 
 .header-nav {
     display: flex;
-    flex: row nowrap;
     justify-content: space-evenly;    
 }
 
